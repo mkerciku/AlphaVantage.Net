@@ -1,36 +1,41 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{768F93FA-CA7A-4828-8ECA-BC4EF5433811}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaVantage.Net.Stocks", "src\AlphaVantage.Net.Stocks\AlphaVantage.Net.Stocks.csproj", "{6A482C82-3191-4026-9284-2A02DE195A8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaVantage.Net.Stocks", "src\AlphaVantage.Net.Stocks\AlphaVantage.Net.Stocks.csproj", "{6A482C82-3191-4026-9284-2A02DE195A8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaVantage.Net.Core", "src\AlphaVantage.Net.Core\AlphaVantage.Net.Core.csproj", "{B5A4D94C-91C7-4DDA-9E44-588AA32B19AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaVantage.Net.Core", "src\AlphaVantage.Net.Core\AlphaVantage.Net.Core.csproj", "{B5A4D94C-91C7-4DDA-9E44-588AA32B19AB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{059E80BE-F596-41CE-ABCA-243EE7987523}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaVantage.Net.Core.Tests", "tests\AlphaVantage.Net.Core.Tests\AlphaVantage.Net.Core.Tests.csproj", "{591EDA71-AF9B-461B-A41F-54266ACB2C64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaVantage.Net.Core.Tests", "tests\AlphaVantage.Net.Core.Tests\AlphaVantage.Net.Core.Tests.csproj", "{591EDA71-AF9B-461B-A41F-54266ACB2C64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaVantage.Net.Stocks.Tests", "tests\AlphaVantage.Net.Stocks.Tests\AlphaVantage.Net.Stocks.Tests.csproj", "{B7495AA4-20AF-4628-9C3C-4CE384A21EB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaVantage.Net.Stocks.Tests", "tests\AlphaVantage.Net.Stocks.Tests\AlphaVantage.Net.Stocks.Tests.csproj", "{B7495AA4-20AF-4628-9C3C-4CE384A21EB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaVantage.Net.TestUtils", "tests\AlphaVantage.Net.TestUtils\AlphaVantage.Net.TestUtils.csproj", "{A0714AEF-E8F1-4950-8785-3365E9AF0196}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaVantage.Net.TestUtils", "tests\AlphaVantage.Net.TestUtils\AlphaVantage.Net.TestUtils.csproj", "{A0714AEF-E8F1-4950-8785-3365E9AF0196}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaVantage.Net.TechnicalIndicators", "src\AlphaVantage.Net.TechnicalIndicators\AlphaVantage.Net.TechnicalIndicators.csproj", "{38A50CAA-7624-41E0-9EE4-5F9A1CCB45BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaVantage.Net.TechnicalIndicators", "src\AlphaVantage.Net.TechnicalIndicators\AlphaVantage.Net.TechnicalIndicators.csproj", "{38A50CAA-7624-41E0-9EE4-5F9A1CCB45BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaVantage.Net.TechnicalIndicators.Tests", "tests\AlphaVantage.Net.TechnicalIndicators.Tests\AlphaVantage.Net.TechnicalIndicators.Tests.csproj", "{59331F85-4FEE-4AE8-BCA9-2CC4F4C43FE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaVantage.Net.TechnicalIndicators.Tests", "tests\AlphaVantage.Net.TechnicalIndicators.Tests\AlphaVantage.Net.TechnicalIndicators.Tests.csproj", "{59331F85-4FEE-4AE8-BCA9-2CC4F4C43FE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaVantage.Net.Common", "src\AlphaVantage.Net.Common\AlphaVantage.Net.Common.csproj", "{222CEDBA-8936-40A6-A0D2-FD9F38EEC1DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaVantage.Net.Common", "src\AlphaVantage.Net.Common\AlphaVantage.Net.Common.csproj", "{222CEDBA-8936-40A6-A0D2-FD9F38EEC1DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaVantage.Net.Forex", "src\AlphaVantage.Net.Forex\AlphaVantage.Net.Forex.csproj", "{30A49889-5219-4A8B-A487-01FBB9E5EA18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaVantage.Net.Forex", "src\AlphaVantage.Net.Forex\AlphaVantage.Net.Forex.csproj", "{30A49889-5219-4A8B-A487-01FBB9E5EA18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaVantage.Net.Crypto", "src\AlphaVantage.Net.Crypto\AlphaVantage.Net.Crypto.csproj", "{B0F749FD-3924-4091-8F16-30A42C877514}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaVantage.Net.Crypto", "src\AlphaVantage.Net.Crypto\AlphaVantage.Net.Crypto.csproj", "{B0F749FD-3924-4091-8F16-30A42C877514}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaVantage.Net.Forex.Tests", "tests\AlphaVantage.Net.Forex.Tests\AlphaVantage.Net.Forex.Tests.csproj", "{81228D87-40A2-4C32-841D-46F47BDB7EBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaVantage.Net.Forex.Tests", "tests\AlphaVantage.Net.Forex.Tests\AlphaVantage.Net.Forex.Tests.csproj", "{81228D87-40A2-4C32-841D-46F47BDB7EBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaVantage.Net.Crypto.Tests", "tests\AlphaVantage.Net.Crypto.Tests\AlphaVantage.Net.Crypto.Tests.csproj", "{6C1E9E00-78C1-4A29-B69C-1B04468F2CCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaVantage.Net.Crypto.Tests", "tests\AlphaVantage.Net.Crypto.Tests\AlphaVantage.Net.Crypto.Tests.csproj", "{6C1E9E00-78C1-4A29-B69C-1B04468F2CCF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{013602B2-18DE-4233-9247-3974BAFFAEBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaVantage.Net.Demo", "demo\AlphaVantage.Net.Demo\AlphaVantage.Net.Demo.csproj", "{893199C5-1083-4823-8992-DC707E3EAC81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaVantage.Net.Demo", "demo\AlphaVantage.Net.Demo\AlphaVantage.Net.Demo.csproj", "{893199C5-1083-4823-8992-DC707E3EAC81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVGUI", "AVGUI\AVGUI.csproj", "{6CFEB44E-939B-42D1-AA1D-4EF845583CCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -90,6 +95,13 @@ Global
 		{893199C5-1083-4823-8992-DC707E3EAC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{893199C5-1083-4823-8992-DC707E3EAC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{893199C5-1083-4823-8992-DC707E3EAC81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CFEB44E-939B-42D1-AA1D-4EF845583CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CFEB44E-939B-42D1-AA1D-4EF845583CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CFEB44E-939B-42D1-AA1D-4EF845583CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CFEB44E-939B-42D1-AA1D-4EF845583CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6A482C82-3191-4026-9284-2A02DE195A8D} = {768F93FA-CA7A-4828-8ECA-BC4EF5433811}
@@ -105,5 +117,9 @@ Global
 		{81228D87-40A2-4C32-841D-46F47BDB7EBA} = {059E80BE-F596-41CE-ABCA-243EE7987523}
 		{6C1E9E00-78C1-4A29-B69C-1B04468F2CCF} = {059E80BE-F596-41CE-ABCA-243EE7987523}
 		{893199C5-1083-4823-8992-DC707E3EAC81} = {013602B2-18DE-4233-9247-3974BAFFAEBC}
+		{6CFEB44E-939B-42D1-AA1D-4EF845583CCB} = {768F93FA-CA7A-4828-8ECA-BC4EF5433811}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF2C6279-8300-40F2-B916-F91FD5B46E5B}
 	EndGlobalSection
 EndGlobal

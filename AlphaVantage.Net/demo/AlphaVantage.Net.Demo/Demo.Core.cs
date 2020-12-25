@@ -11,7 +11,7 @@ namespace AlphaVantage.Net.Demo
         public static async Task CoreDemo()
         {
             // use your AlphaVantage API key
-            string apiKey = "1";
+            string apiKey = "6FQOAVODM8ZFCE3T";
             // there are 5 more constructors available
             using var client = new AlphaVantageClient(apiKey);
 

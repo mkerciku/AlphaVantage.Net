@@ -9,9 +9,9 @@ namespace AlphaVantage.Net.Demo
         {
             await Demo.CoreDemo();
             await Demo.StocksDemo();
-            await Demo.ForexDemo();
-            await Demo.CryptoDemo();
-            await Demo.TechIndicatorsDemo();
+            //await Demo.ForexDemo();
+            //await Demo.CryptoDemo();
+            //await Demo.TechIndicatorsDemo();
             
             Console.WriteLine("Hello World!");
         }

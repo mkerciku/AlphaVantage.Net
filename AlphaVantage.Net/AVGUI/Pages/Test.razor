@@ -1,0 +1,36 @@
+﻿@inject HttpClient Http
+
+<h3>Test</h3>
+
+@res
+
+
+
+
+
+
+@code {
+    private string res = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // use your AlphaVantage API key
+        string apiKey = "6FQOAVODM8ZFCE3T";
+        // there are 5 more constructors available
+        using var client = new AlphaVantageClient(apiKey);
+
+        // query for intraday time series for Apple Inc:
+        var query = new Dictionary<string, string>()
+        {
+                {"symbol", "AAPL"},
+                {"interval", "15min"}
+            };
+
+        // retrieve response as pure JSON string
+        string stringResult = await client.RequestPureJsonAsync(ApiFunction.TIME_SERIES_INTRADAY, query);
+        res = stringResult;
+
+        // retrieve response as parsed JsonDocument from System.Text.Json
+        //JsonDocument parsedResult = await client.RequestParsedJsonAsync(ApiFunction.TIME_SERIES_INTRADAY, query);
+    }
+}
